@@ -1,3 +1,6 @@
+// Copyright 2016 Brian Quach
+// Licensed under MIT (https://github.com/brianquach/udacity-nano-front-portfolio/blob/master/LICENSE)
+
 // Code source http://getbootstrap.com/javascript/#modals
 $('#projectModal').on('show.bs.modal', function (event) {
   var button = $(event.relatedTarget); // Button that triggered the modal

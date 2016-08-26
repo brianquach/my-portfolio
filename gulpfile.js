@@ -1,5 +1,5 @@
 // Copyright 2016 Brian Quach
-// Licensed under MIT (https://github.com/brianquach/udacity-nano-frontend-portfolio/blob/master/LICENSE)
+// Licensed under MIT (https://github.com/brianquach/udacity-nano-front-portfolio/blob/master/LICENSE)
 var gulp = require('gulp');
 var imageResize = require('gulp-image-resize');
 var rename = require('gulp-rename');

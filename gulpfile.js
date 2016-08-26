@@ -9,7 +9,7 @@ var resizeMyPhotoTask = 'resizeMyPhotoTask';
 var resizeImageTasks = [];
 [300, 350].forEach(function(size) {
   var resizeImageTask = 'resize_' + size;
-  
+
   gulp.task(resizeImageTask, function() {
     return gulp.src('img_src/*.png')
       .pipe(imageResize({
@@ -28,24 +28,5 @@ var resizeImageTasks = [];
   });
   resizeImageTasks.push(resizeImageTask);
 });
-//
-// [300, 600].forEach(function(size) {
-//   resizeImageTask = 'resize_me_photo_' + size;
-//
-//   gulp.task(resizeImageTask, function() {
-//     return gulp.src('img_src/me.jpg')
-//       .pipe(imageResize({
-//           imageMagick: true,
-//           width: size
-//         })
-//       ).pipe(rename(function (path) {
-//           path.basename += ("-" + size);
-//         }
-//       )).pipe(
-//         gulp.dest('portfolio/img')
-//       );
-//   });
-//   resizeImageTasks.push(resizeImageTask);
-// });
 
 gulp.task('default', resizeImageTasks);

@@ -2,6 +2,9 @@
 Copyright 2016 Brian Quach
 Licensed under MIT (https://github.com/brianquach/udacity-nano-front-portfolio/blob/master/LICENSE)
  */
+/*
+General CSS rules
+*/
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -29,9 +32,12 @@ main {
 footer {
   background-color: #2f2f2f;
   padding: 1em 0;
-  color: #ffffff;
+  color: #fff;
 }
 
+/*
+Portfolio header CSS rules
+*/
 .logo {
   margin: 0 auto;
 }
@@ -40,6 +46,9 @@ footer {
   margin: 0 0 3px 0;
 }
 
+/*
+Portfolio main content CSS rules
+*/
 .portfolio-self-photo {
   margin: 0 auto;
 }
@@ -58,6 +67,9 @@ footer {
   margin: 5px;
 }
 
+/*
+Modal CSS rules
+*/
 .modal-thumbnail {
   margin: 0 auto;
 }
@@ -66,6 +78,9 @@ footer {
   text-align: left;
 }
 
+/*
+Media query CSS rules
+*/
 @media screen and (min-width: 768px) {
   header {
     text-align: right;

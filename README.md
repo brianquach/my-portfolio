@@ -2,7 +2,9 @@
 
 First project for the Frontend Web Developer Nanodegree course; my portfolio features a few projects from Udacity's Fullstack Web Developer Course. Using Bootstrap and jQuery, I was able to create a responsive and interactive portfolio website. Resources included are the original photos and Gulp setup used to manipulate some of the images for this project.
 
-**Note: Gulp was not used to manipulate `img_src/me.jpg`; photoshop was used to get different crops for mobile, tablet, and desktop screens.**
+*Note: Gulp was not used to manipulate `img_src/me.jpg`; photoshop was used to get different crops for mobile, tablet, and desktop screens.*
+
+*Note: Bootstrap and jQuery are included in the project.*
 
 ## Table of Contents
 * [Installation and Run](#installation-and-run)

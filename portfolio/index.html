@@ -31,9 +31,12 @@ Licensed under MIT (https://github.com/brianquach/udacity-nano-frontend-portfoli
     <main class="container">
       <div class="row">
         <div class="col-xs-12">
-          <article class="portfolio-about">
+          <article>
             <picture>
-              <img src="http://placehold.it/300x300" alt="photo of Brian Quach" class-"img-responsive img-rounded">
+              <source srcset="img/me-full.jpg" media="(min-width: 1400px)">
+              <source srcset="img/me-600-2x.jpg 2x, img/me-600-1x.jpg" media="(min-width: 600px)">
+              <source srcset="img/me-300-2x.jpg 2x, img/me-300-1x.jpg">
+              <img src="img/me-300-1x.jpg" alt="Brian Quach hiking Angel's Landing in Utah" class="img-responsive img-rounded portfolio-self-photo">
             </picture>
           </article>
         </div>

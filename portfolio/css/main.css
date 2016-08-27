@@ -6,13 +6,15 @@ Licensed under MIT (https://github.com/brianquach/udacity-nano-front-portfolio/b
 General CSS rules
 */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #2d3c49;
 }
 
-h1, h2, h3 {
-  font-family: 'Patua One', cursive;
+h1,
+h2,
+h3 {
+  font-family: "Patua One", cursive;
 }
 
 a {

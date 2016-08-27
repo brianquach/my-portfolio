@@ -13,7 +13,7 @@ First project for the Frontend Web Developer Nanodegree course; my portfolio fea
 
 ## Installation and Run
 
-In order to install Brian's Favorite Movies application follow these instructions:
+To grab a copy of the code:
 * Clone repository: `git clone https://github.com/brianquach/udacity-nano-front-portfolio.git` or download the zip [here](https://github.com/brianquach/udacity-nano-front-portfolio/archive/master.zip).
 * Navigate to the directory where you cloned the repo or unzipped the file to.
 * Use your favorite browser (preferably Chrome or FireFox) to open `portfolio/index.html`
